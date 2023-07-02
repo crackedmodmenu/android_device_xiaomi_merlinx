@@ -11,11 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile.
 $(call inherit-product, device/xiaomi/merlinx/device.mk)
 
-# Inherit some common Evolution-X stuff. 
- $(call inherit-product, vendor/evolution/config/common_full_phone.mk) 
- EVO_BUILD_TYPE := UNOFFICIAL
+# Inherit some common BLKI stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := evolution_merlinx
+PRODUCT_NAME := aosp_merlinx
 PRODUCT_DEVICE := merlinx
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
