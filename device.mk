@@ -20,9 +20,6 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.6.vendor:64 \
     android.hardware.camera.provider@2.6.vendor:64
 
-PRODUCT_PACKAGES += \
-    Camera
-
 # Firmware
 RECOVERY_TS_FW_PATH := vendor/xiaomi/merlinx/proprietary/vendor/firmware
 
