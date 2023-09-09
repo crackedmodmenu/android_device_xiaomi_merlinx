@@ -23,7 +23,7 @@ PRODUCT_MODEL := Redmi Note 9
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Inherit some props from Cherish
-CHERISH_VANILLA := false
+CHERISH_VANILLA := true
 CHERISH_BUILD_TYPE := UNOFFICIAL
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.cherish.maintainer=cracked_mod_menu
